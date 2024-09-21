@@ -631,4 +631,15 @@
     .thirdsectionLogo{
         width: 90%;
     }
+
+    .reviewContainer{
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .reviewContainer img{
+        width: 96%;
+    }
 }
