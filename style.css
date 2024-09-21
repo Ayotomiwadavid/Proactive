@@ -320,6 +320,10 @@
         justify-content: center;
         background: #fff;
     }
+
+    .navBar img{
+        width: 85%;
+    }
     
     .herosection{
         width: 100%;
