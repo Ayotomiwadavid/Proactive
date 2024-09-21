@@ -1,0 +1,630 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navBar{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+}
+
+.herosection{
+    width: 100%;
+    position: relative;
+    background: url('./Hero.png');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.overLay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heroHeading{
+    width: 60%;
+    font-size: 75px;
+    color: #fff;
+    font-weight: bolder;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.dramaticallySection{
+    padding: 80px 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.paragraphText{
+    color: rgba(3, 71, 159, 1);
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    width: 70%;
+    padding: 20px 0;
+}
+
+.yellow{
+    color: rgba(255, 117, 24, 1);
+}
+
+.yellowUnderline{
+    text-decoration: underline;
+    color: rgba(255, 117, 24, 1);
+    line-height: 2.5em;
+}
+
+.smallText{
+    font-size: 16px;
+    text-transform: capitalize;
+    line-height: 2em;
+    text-align: center;
+    width: 65%;
+}
+
+.redParagraph{
+    color: red;
+    margin-top: 30px;
+}
+
+.cta{
+    height: 50px;
+    background: rgba(255, 117, 24, 1);
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+    cursor: pointer;
+    padding: 0 15px;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    padding: 25px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aside{
+    background: url('./window\ shape.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 70px 10vw;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sectionTitle{
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(3, 71, 159, 1);
+}
+
+.paragraph{
+    font-weight: bold;
+    text-align: center;
+    width: 65%;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.est{
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.twoImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.twoImage img{
+    width: 250px;
+    height: 200px;
+}
+
+.bold{
+    font-weight: bolder;
+    font-size: 20px;
+    color: rgba(3, 71, 159, 1);
+}
+
+.gmailContainer{
+    width: 30%;
+    border-radius: 50px;
+    background: #06FDFD;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.justcontainer{
+    padding: 30px 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+}
+
+.video{
+    width: 70%;
+}
+
+.headingText{
+    font-size: 45px;
+    width: 60%;
+    text-align: center;
+}
+
+.imagesection{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.longImage{
+    width: 80%;
+}
+
+.blueSection{
+    background: #224292;
+    padding: 20px 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    gap: 40px;
+}
+
+.lightBlueEmpahzy{
+    color: #06FDFD;
+}
+
+.redBg{
+    background: red;
+    width: 100%;
+    padding: 20px 50px;
+    color: #fff;
+    font-size: 25px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.calculatorSection{
+    width: 100%;
+    background: url('./dotred.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    padding: 35px 10vw;
+    height: 90vh;
+}
+
+.calculateandText{
+    padding: 35px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 15px;
+}
+
+.weeksDiv, .carsDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+
+.yourSavingsLabel{
+    text-align: center;
+    width: 100%;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.twoImageContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.newSection{
+    padding: 30px 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    background: #06FDFD;
+}
+
+.innerSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background-color: transparent;
+    margin: 15px 0;
+}
+
+.sectionIndicator{
+    background: #D6D103;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    width: 150px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.otherInnerSection{
+    width: 100%;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin: 20px;
+}
+
+@media screen and (max-width:767px) {
+    .navBar{
+        width: 100%;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #fff;
+    }
+    
+    .herosection{
+        width: 100%;
+        position: relative;
+        background: url('./Hero.png');
+        height: 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .overLay{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .heroHeading{
+        width: 100%;
+        font-size: 65px;
+        color: #fff;
+        font-weight: bolder;
+        text-align: center;
+        text-transform: capitalize;
+    }
+    
+    .dramaticallySection{
+        padding: 60px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .paragraphText{
+        color: rgba(3, 71, 159, 1);
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        width: 75%;
+        padding: 20px 0;
+    }
+    
+    .yellow{
+        color: rgba(255, 117, 24, 1);
+    }
+    
+    .yellowUnderline{
+        text-decoration: underline;
+        color: rgba(255, 117, 24, 1);
+        line-height: 1.5em;
+    }
+    
+    .smallText{
+        font-size: 16px;
+        text-transform: capitalize;
+        line-height: 2em;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .redParagraph{
+        color: red;
+        margin-top: 30px;
+    }
+    
+    .cta{
+        height: 50px;
+        background: rgba(255, 117, 24, 1);
+        color: white;
+        border: none;
+        font-size: 18px;
+        font-weight: bold;
+        text-transform: capitalize;
+        cursor: pointer;
+        padding: 0 15px;
+    }
+    
+    .container{
+        width: 100%;
+        display: flex;
+        padding: 25px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .aside{
+        background: url('./window\ shape.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        padding: 70px 20px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .sectionTitle{
+        text-transform: uppercase;
+        font-size: 30px;
+        font-weight: bold;
+        color: rgba(3, 71, 159, 1);
+    }
+    
+    .paragraph{
+        font-weight: bold;
+        text-align: center;
+        width: 100%;
+        font-size: 18px;
+        font-weight: bolder;
+    }
+    
+    .est{
+        text-transform: uppercase;
+        font-size: 18px;
+    }
+    
+    .twoImage{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 15px;
+        width: 100%;
+    }
+    
+    .twoImage img{
+        width: 80%;
+        height: 200px;
+    }
+    
+    .bold{
+        font-weight: bolder;
+        font-size: 20px;
+        color: rgba(3, 71, 159, 1);
+    }
+    
+    .gmailContainer{
+        width: 100%;
+        border-radius: 50px;
+        background: #06FDFD;
+        height: 55px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .justcontainer{
+        padding: 30px 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        gap: 15px;
+    }
+    
+    .video{
+        width: 70%;
+    }
+    
+    .headingText{
+        font-size: 25px;
+        width: 80%;
+        text-align: center;
+    }
+    
+    .imagesection{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .longImage{
+        width: 80%;
+    }
+    
+    .blueSection{
+        background: #224292;
+        padding: 20px 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        width: 100%;
+        gap: 40px;
+    }
+    
+    .lightBlueEmpahzy{
+        color: #06FDFD;
+        text-align: center;
+    }
+    
+    .redBg{
+        background: red;
+        width: 100%;
+        padding: 20px 50px;
+        color: #fff;
+        font-size: 25px;
+        text-transform: capitalize;
+        text-align: center;
+    }
+    
+    .calculatorSection{
+        width: 100%;
+        background: url('./dotred.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        flex-direction: column;
+        padding: 35px 10vw;
+        height: 90vh;
+    }
+    
+    .calculateandText{
+        padding: 35px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        gap: 15px;
+    }
+    
+    .weeksDiv, .carsDiv{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+    }
+    
+    
+    .yourSavingsLabel{
+        text-align: center;
+        width: 100%;
+        text-transform: capitalize;
+        font-size: 20px;
+    }
+    
+    .twoImageContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .newSection{
+        padding: 30px 10vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        background: #06FDFD;
+    }
+    
+    .innerSection{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        background-color: transparent;
+        margin: 15px 0;
+    }
+    
+    .sectionIndicator{
+        background: #D6D103;
+        color: black;
+        font-size: 20px;
+        text-align: center;
+        text-transform: capitalize;
+        width: 150px;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .otherInnerSection{
+        width: 100%;
+        gap: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        margin: 20px;
+    }
+
+    .qrcode{
+        width: 50%;
+        height: 150px;
+    }
+}
