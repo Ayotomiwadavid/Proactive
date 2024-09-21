@@ -548,8 +548,7 @@
         align-items: center;
         justify-content: start;
         flex-direction: column;
-        padding: 35px 10px;
-        height: 90vh;
+        padding:10px;
     }
     
     .calculateandText{
