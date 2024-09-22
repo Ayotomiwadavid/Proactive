@@ -369,6 +369,10 @@
         justify-content: center;
         flex-direction: column;
     }
+
+    .needSize{
+        width: 50%;
+    }
     
     .paragraphText{
         color: rgba(3, 71, 159, 1);
@@ -659,14 +663,6 @@
         font-size: 16px;
     }
 
-    .lastRed{
-        width: 80%;
-        background: red;
-        display: flex;
-        align-items: center;
-        color: #fff;
-    }
-
     .lastRedContainer{
         width: 100%;
         display: flex;
@@ -674,18 +670,8 @@
         justify-content: center;
     }
     
-    .lastRed{
-        width: 70%;
-        background: red;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: #fff;
-        padding: 25px 20px;
-    }
-    
     .lastRed h4{
-        font-size: 19px;
+        font-size: 18px;
     }
 
     .card{
@@ -722,15 +708,6 @@
     justify-content: center;
 }
 
-.lastRed{
-    width: 50%;
-    background: red;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    padding: 25px 20px;
-}
 
 .lastRed h4{
     font-size: 25px;
