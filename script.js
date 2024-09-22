@@ -15,7 +15,7 @@ function carousel() {
   slideIndex++;
   if (slideIndex > x.length) {slideIndex = 1}
   x[slideIndex-1].style.display = "block";
-  setTimeout(carousel, 2000); // Change image every 2 seconds
+  setTimeout(carousel, 5000); // Change image every 2 seconds
 }
 
 
@@ -25,9 +25,13 @@ const calculator = () => {
 
     const overallValue = customervalue * weekValue
 
-    if (overallValue < 1500) {
-        savingsInput.value = "40%"
+    const totalPerYear = overallValue * 50
+
+    if (totalPerYear <=  1500) {
+        let overAllTotal = totalPerYear * 0.35
+        savingsInput.value = `£${overAllTotal - 50/100}`
     } else {
-        savingsInput.value = "50%"
+      let overAllTotal = totalPerYear * 0.45
+        savingsInput.value = `£${overAllTotal - 50/100}`
     }
 }
