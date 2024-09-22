@@ -28,10 +28,10 @@ const calculator = () => {
     const totalPerYear = overallValue * 50
 
     if (totalPerYear <=  1500) {
-        let overAllTotal = totalPerYear * 0.35
+        let overAllTotal = totalPerYear * 0.45
         savingsInput.value = `£${overAllTotal - 50/100}`
     } else {
-      let overAllTotal = totalPerYear * 0.45
+      let overAllTotal = totalPerYear * 0.35
         savingsInput.value = `£${overAllTotal - 50/100}`
     }
 }
