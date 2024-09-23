@@ -246,10 +246,6 @@ body{
 
 .calculatorSection{
     width: 100%;
-    background: url('./dotred.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: start;
@@ -566,10 +562,6 @@ body{
     
     .calculatorSection{
         width: 100%;
-        background: url('./dotred.png');
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
         display: flex;
         align-items: center;
         justify-content: start;
@@ -689,6 +681,7 @@ body{
         display: flex;
         align-items: center;
         justify-content: center;
+        flex-direction: column;
     }
     
     .lastRed h4{
@@ -727,9 +720,17 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 
 .lastRed h4{
     font-size: 25px;
+}
+
+.ruller{
+    padding: 4px 100px;
+    margin-bottom: 10px;
+    background: black;
+    margin-right: 50px;
 }

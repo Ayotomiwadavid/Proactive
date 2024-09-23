@@ -20,18 +20,17 @@ function carousel() {
 
 
 const calculator = () => {
-    const customervalue = customersInput.value
-    const weekValue = weekInput.value
+  const customervalue = parseFloat(customersInput.value);
+  const weekValue = parseFloat(weekInput.value);
 
-    const overallValue = customervalue * weekValue
+  const overallValue = customervalue * weekValue;
+  const totalPerYear = overallValue * 50;
 
-    const totalPerYear = overallValue * 50
-
-    if (totalPerYear <=  1500) {
-        let overAllTotal = totalPerYear * 0.45
-        savingsInput.value = `£${overAllTotal * 50/100}`
-    } else {
-      let overAllTotal = totalPerYear * 0.35
-        savingsInput.value = `£${overAllTotal * 50/100}`
-    }
-}
+  if (totalPerYear <= 1500) {
+      let overAllTotal = totalPerYear * 0.45;
+      savingsInput.value = `£${(overAllTotal * 50 / 100).toFixed(2)}`;
+  } else {
+      let overAllTotal = totalPerYear * 0.35;
+      savingsInput.value = `£${(overAllTotal * 50 / 100).toFixed(2)}`;
+  }
+};
