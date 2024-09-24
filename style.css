@@ -155,7 +155,7 @@ body{
 }
 
 .est{
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-size: 18px;
 }
 
@@ -328,6 +328,15 @@ body{
     margin: 20px;
 }
 
+.thirdsectionLogoContainer{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+}
+
 @media screen and (max-width:767px) {
     .navBar{
         width: 100%;
@@ -468,7 +477,7 @@ body{
     }
     
     .est{
-        text-transform: uppercase;
+        text-transform: capitalize;
         font-size: 18px;
     }
     
@@ -660,6 +669,10 @@ body{
         width: 90%;
     }
 
+    .thirdsectionLogoContainer{
+        margin: 0;
+    }
+
     .reviewContainer{
         width: 80%;
         display: flex;
@@ -685,7 +698,12 @@ body{
     }
     
     .lastRed h4{
+        width: 100%;
         font-size: 18px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .card{
@@ -726,6 +744,10 @@ body{
 
 .lastRed h4{
     font-size: 25px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .ruller{

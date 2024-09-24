@@ -13,24 +13,31 @@ function carousel() {
     x[i].style.display = "none";
   }
   slideIndex++;
-  if (slideIndex > x.length) {slideIndex = 1}
-  x[slideIndex-1].style.display = "block";
+  if (slideIndex > x.length) { slideIndex = 1 }
+  x[slideIndex - 1].style.display = "block";
   setTimeout(carousel, 5000); // Change image every 2 seconds
 }
 
 
 const calculator = () => {
-  const customervalue = parseFloat(customersInput.value);
-  const weekValue = parseFloat(weekInput.value);
 
-  const overallValue = customervalue * weekValue;
-  const totalPerYear = overallValue * 50;
+  if (customersInput.value === '' || weekInput.value === '') {
 
-  if (totalPerYear <= 1500) {
+    return null;
+
+  } else {
+    const customervalue = parseFloat(customersInput.value);
+    const weekValue = parseFloat(weekInput.value);
+
+    const overallValue = customervalue * weekValue;
+    const totalPerYear = overallValue * 50;
+
+    if (totalPerYear <= 1500) {
       let overAllTotal = totalPerYear * 0.45;
       savingsInput.value = `£${(overAllTotal * 50 / 100).toFixed(2)}`;
-  } else {
+    } else {
       let overAllTotal = totalPerYear * 0.35;
       savingsInput.value = `£${(overAllTotal * 50 / 100).toFixed(2)}`;
+    }
   }
 };
