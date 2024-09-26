@@ -782,8 +782,14 @@ body{
 }
 
 .carsDivForBtn button{
-    background: orange;
+    background: rgba(255, 117, 24, 1);
     color: white;
+    border: none;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
 }
 
 .contactDetails{
