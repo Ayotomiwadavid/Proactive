@@ -422,6 +422,7 @@ body{
         text-decoration: underline;
         color: rgba(255, 117, 24, 1);
         line-height: 1.5em;
+        font-size: 18px;
     }
     
     .smallText{
