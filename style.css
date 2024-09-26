@@ -774,6 +774,10 @@ body{
     }
 }
 
+.blueBlack{
+    color: #224292;
+}
+
 .carsDivForBtn{
     width: 100%;
     display: flex;
