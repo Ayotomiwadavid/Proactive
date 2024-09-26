@@ -765,6 +765,55 @@ body{
     }
 }
 
+.contactDetails{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+address{
+    color: rgba(3, 71, 159, 1);
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.phone{
+    display: flex;
+    gap: 3px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.phone p{
+    font-size: 20px;
+    color: rgba(3, 71, 159, 1);
+}
+
+.phone h1{
+    font-weight: bolder;
+    font-size: 25px;
+    color: red
+}
+
+.gmailCont{
+    background: #06FDFD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+    border-radius: 50px;
+}
+
+.gmailCont p{
+    font-size: 18px;
+    font-weight: bold;
+}
+
 .audio{
     background: #F8F208;
     display: none;
