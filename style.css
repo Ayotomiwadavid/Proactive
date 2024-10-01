@@ -115,6 +115,10 @@ body{
     text-transform: capitalize;
     cursor: pointer;
     padding: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
 }
 
 .container{
@@ -448,6 +452,10 @@ body{
         text-transform: capitalize;
         cursor: pointer;
         padding: 0 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
     }
     
     .container{
