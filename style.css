@@ -347,15 +347,22 @@ body{
     height: 400px;
 }
 
-.lastSec{
+/* .lastSec{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-}
+    width: 100%;
+} */
 
 .resizeVideo{
     width: 70%;
+}
+
+.inputResize{
+    height: 40px;
+    padding: 0 10px;
+    margin: 10px;
 }
 
 @media screen and (max-width:767px) {
