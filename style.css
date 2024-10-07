@@ -369,7 +369,18 @@ body{
     width: 58%;
 }
 
+.fontSizeCorrect{
+    font-size: 35px;
+    width: 70%;
+}
+
 @media screen and (max-width:767px) {
+
+    .fontSizeCorrect{
+        font-size: 35px;
+        width: 90%;
+    }
+
     .navBar{
         width: 100%;
         height: 70px;
