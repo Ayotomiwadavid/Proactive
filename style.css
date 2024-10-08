@@ -378,7 +378,7 @@ body{
 @media screen and (max-width:767px) {
 
     .fontSizeCorrect{
-        font-size: 35px;
+        font-size: 20px;
         width: 90%;
     }
 
@@ -638,11 +638,17 @@ body{
     .redBg{
         background: red;
         width: 100%;
-        padding: 20px 50px;
+        padding: 20px 15px;
         color: #fff;
         font-size: 25px;
         text-transform: capitalize;
         text-align: center;
+    }
+
+    .redBg h4{
+        width: 100%;
+        text-align: center;
+        padding: 0;
     }
     
     .calculatorSection{
